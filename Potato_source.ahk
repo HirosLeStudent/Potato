@@ -1,0 +1,1 @@
+~LButton::return#If (A_PriorHotkey = "~LButton" || A_PriorHotkey = "LButton") && A_TimeSincePriorHotkey < 75LButton::return#If~RButton::return#If (A_PriorHotkey = "~RButton" || A_PriorHotkey = "RButton") && A_TimeSincePriorHotkey < 75RButton::return#If+f4::ExitApp
